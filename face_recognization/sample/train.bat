@@ -1,0 +1,1 @@
+opencv_traincascade -data xml -vec pos.vec -bg pneg.txt -numStages 5 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -numPos 199 -numNeg 120 -w 50 -h 50 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024

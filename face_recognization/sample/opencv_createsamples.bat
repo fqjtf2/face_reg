@@ -1,0 +1,1 @@
+opencv_createsamples.exe -vec pos.vec  -info pos.txt -num 199 -w 50 -h 50 pause
